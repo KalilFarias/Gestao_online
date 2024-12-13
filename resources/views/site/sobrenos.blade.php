@@ -1,11 +1,11 @@
 <h3>sobrenos (view)</h3>
 
 <ul>
-    <li> <a href="/">principal</a></li>
-    <li> <a href="/sobrenos">Sobre</a></li>
-    <li> <a href="/contato">contato</a></li>
-    <li> <a href="/clientes">clientes</a></li>
-    <li> <a href="/login">login</a></li>
-    <li> <a href="/produtos">produtos</a></li>
-    <li> <a href="/fornecedores">fornecedores</a></li>
+    <li> <a href="{{route('site.index')}}">principal</a></li>
+    <li> <a href="{{route('site.sobrenos')}}">Sobre</a></li>
+    <li> <a href="{{route('site.contato')}}">contato</a></li>
+    <li> <a href="{{route('app.clientes')}}">clientes</a></li>
+    <li> <a href="{{route('site.login')}}">login</a></li>
+    <li> <a href="{{route('app.produtos')}}">produtos</a></li>
+    <li> <a href="{{route('app.fornecedores')}}">fornecedores</a></li>
 </ul>
