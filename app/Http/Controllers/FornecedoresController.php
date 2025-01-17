@@ -5,9 +5,9 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 
 class FornecedoresController extends Controller{
-    function fornecedores (){
+    public function fornecedores (){
 
-        return view("site.fornecedores");
+        return view("app.fornecedor.index");
 
     }
 }
